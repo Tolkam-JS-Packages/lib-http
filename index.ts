@@ -155,7 +155,7 @@ class Http {
 
         for (const name in data) {
             const value = data[name];
-            if (value instanceof FileList) {
+            if (value instanceof FileList || Array.isArray(value)) {
                 for (let i = 0; i < value.length; i++) {
                     formData.append(name + '[]', value[i]);
                 }
