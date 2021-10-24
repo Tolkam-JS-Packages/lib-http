@@ -1,13 +1,12 @@
 {
     "name": "@tolkam/lib-http",
-    "version": "1.0.0",
-    "description": "Service for making HTTP requests based on axios",
-    "main": "index.ts",
+    "description": "HTTP request library based on axios",
+    "browser": "index.ts",
+    "types": "index.ts",
     "license": "UNLICENSED",
-    "private": true,
     "dependencies": {
-        "axios": "^0.21",
-        "@tolkam/lib-utils": "file:D:/dev-packages/js/tolkam/lib-utils"
+        "@tolkam/lib-utils": "^0.2.0",
+        "axios": "^0.21"
     },
     "devDependencies": {
         "tslib": "^1.9.3"
