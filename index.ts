@@ -23,7 +23,7 @@ class Http {
     /**
      * @param config IRequestConfig
      */
-    public constructor(config: IRequestConfig) {
+    public constructor(config?: IRequestConfig) {
         this.client = axios.create(config);
     }
 
