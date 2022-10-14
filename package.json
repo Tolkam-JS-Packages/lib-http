@@ -1,6 +1,7 @@
 {
     "name": "@tolkam/lib-http",
     "description": "HTTP request library based on axios",
+    "version": "0.0.0",
     "browser": "index.ts",
     "types": "index.ts",
     "license": "UNLICENSED",
